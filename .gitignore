@@ -42,5 +42,4 @@ null
 
 build/
 rtl/*.v
-rtl/freq.txt
 verbose.log
