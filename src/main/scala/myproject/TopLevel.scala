@@ -35,7 +35,7 @@ class TopLevel extends ICEBreaker(
 }
 
 // Generate Verilog module which can be built with Makefile
-object TopLeveVerilog {
+object TopLevelVerilog {
   def main(args: Array[String]): Unit = {
     val config = SpinalConfig(
       targetDirectory = "rtl"
